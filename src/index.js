@@ -1,5 +1,5 @@
 const { shellCommand } = require('cerebro-tools')
-const { settings } = require('./shorthand')
+const { options } = require('./shorthand')
 
 const fn = ({ term, display }) => {
   // Put your plugin code here
@@ -40,5 +40,5 @@ module.exports = {
   fn,
   keyword: 'zeal',
   name: 'Search Zeal..',
-  settings
+  settings: options
 }
