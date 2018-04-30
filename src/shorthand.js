@@ -13,6 +13,9 @@ const langList = [
 ];
 
 export const options = langList.reduce((acc, cur) => {
-  acc[cur] = { type: 'string '};
+  acc[cur] = { 
+    label: cur,
+    type: 'string'
+  };
   return acc
 }, {});
