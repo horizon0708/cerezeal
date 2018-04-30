@@ -7,6 +7,10 @@
     "cerebro-tools": "^0.1.8",
     "cerebro-ui": "^0.0.16"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horizon0708/cerezeal"
+  },
   "devDependencies": {
     "cerebro-scripts": "0.0.25"
   },
