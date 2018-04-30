@@ -33,8 +33,6 @@ const fn = ({ term, display }) => {
 
 module.exports = {
   fn: fn,
-  keyword: zeal,
-  settings: {
-    ...settings
-  }  
+  keyword: 'zeal',
+  settings: settings
 }
