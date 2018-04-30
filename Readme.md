@@ -15,7 +15,7 @@ This is a [Cerebro](https://cerebroapp.com) plugin, that uses [Zeal](https://zea
 - the keyword 'zeal' can be changed to any word you'd like in the settings. Make it empty to trigger the plugin without typing any keyword.
 
 ## Shorthand
-If you are too lazy to type long language names such as JavaScript or TypeScript. You can set the shorthands for the language names in the settings. For example, you may Javascript to 'js', then you can type `js:reduce` instead of `javascript:reduce`, saving you 8 keystrokes!! If you change the keyword from 'zeal' to 'z', it saves you 3 more keystrokes! Thats 11 keystorkes!!
+If you are too lazy like me to be bothered type long language names such as JavaScript, You can set the shorthands in the settings. For example, you may set Javascript to 'js', then you can type `js reduce` instead of `javascript reduce`, saving you 8 keystrokes!! If you change the keyword from 'zeal' to 'z', it saves you 3 more keystrokes! Thats 11 keystorkes!! 
 
 The plugin currently only supports a limited list of languages for shorthands because I am lazy. You can add support for your language by adding it to the array under `shorthand.js`, and submitting a pull request.
 
