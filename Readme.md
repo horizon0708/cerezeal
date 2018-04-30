@@ -7,7 +7,7 @@ This is a [Cerebro](https://cerebroapp.com) plugin, that uses [Zeal](https://zea
   - Don't know how? [Windows](https://www.java.com/en/download/help/path.xml), [OSX](https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/), [Ubuntu](https://askubuntu.com/questions/60218/how-to-add-a-directory-to-the-path)
   - now, you can type `zeal lang:search_term` in the terminal to search from the terminal.
   - and I've just realised now that I can also press WIN key and type `zeal lang:search_term`to achieve the same thing. I should have thought about that before writing this plugin.
-2. Install the plugin ;(
+2. Install the plugin if you still want it ...;(
 
 ## Usage
 - zeal [LANGUAGE] [SEARCH_TERM] or
@@ -18,5 +18,6 @@ I am  too lazy to type `javascript` or `typescript`. So under config for this pl
 
 The plugin currently only supports a limited list of languages for shorthands because I am lazy. You can add support for your language by adding it to the array under `shorthand.js`, and sending a pull request.
 
-
+## Notes
+- I would like to be able to display Zeal's results in the future, which I suspect is not an easy task. I have no clue how to go about making this feature possible. If a kind soul could point me in the right direction, it would be great.
  
