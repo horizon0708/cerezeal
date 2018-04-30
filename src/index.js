@@ -34,5 +34,6 @@ const fn = ({ term, display }) => {
 module.exports = {
   fn,
   keyword: 'zeal',
-  name: 'Search Zeal..'
+  name: 'Search Zeal..',
+  settings
 }
